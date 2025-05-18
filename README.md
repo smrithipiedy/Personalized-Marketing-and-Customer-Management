@@ -1,4 +1,4 @@
-""main.tsx""
+## main.tsx
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')!).render(
   </StrictMode>
 );
 
-""App.tsx""
+## App.tsx
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
